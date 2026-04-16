@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "IOTARProject",
+    "plugins": [
+      [
+        "@reactvision/react-viro",
+        {
+          "android": {
+            "apiKey": "TU_API_KEY"
+          }
+        }
+      ]
+    ]
+  },
+  "newArchEnabled": false,
+"android": {
+  "jsEngine": "jsc",
+  "package": "com.xavi06.IOTARProject"
+},
+  "dependencies": {
+    "@reactvision/react-viro": "^2.54.0",
+    "expo": "~54.0.33",
+    "expo-status-bar": "~3.0.9",
+    "react": "19.1.0",
+    "react-native": "0.81.5"
+  },
+  "name": "IOTARProject",
+  "version": "1.0.0",
+  "scripts": {
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  }
+}
